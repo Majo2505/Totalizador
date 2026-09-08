@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c9bc50d77d98cdc202a7e1eaefe2f6ce58c7d221",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-08T13:50:23.000Z",
       "message": "feat: calcular impuesto para el estado de Utah",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/c9bc50d77d98cdc202a7e1eaefe2f6ce58c7d221"
     },
     "stats": {
       "total": 25,
@@ -34,6 +34,25 @@
     },
     "coverage": 75,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-08T13:57:30.000Z",
+      "message": "feat: calcular impuesto para el estado de Nevada",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 83.33,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -46,9 +46,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c9bc50d77d98cdc202a7e1eaefe2f6ce58c7d221",
     "commitName": "feat: calcular impuesto para el estado de Utah",
     "commitTimestamp": 1788875424953,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788875782013,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788875827577,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para el estado de Nevada",
+    "commitTimestamp": 1788875852443,
+    "testId": 2
   }
 ]
