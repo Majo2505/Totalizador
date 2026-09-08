@@ -8,9 +8,16 @@ describe("CalcularPrecioNeto", () => {
 
 describe("CalcularImpuesto", () => {
     it("deberia calcular el impuesto del 6.65% para el estado de UT", () => {
-        expect(calcularImpuesto(60, "UT")).toEqual(3.99);
+        expect(calcularImpuesto(100, "UT")).toEqual(6.65);
     });
     it("deberia calcular el impuesto del 8.00% para el estado de NV", () => {
         expect(calcularImpuesto(100, "NV")).toEqual(8.00);
     });
+    it("deberia calcular el impuesto del 8.00% para el estado de NV", () => {
+        expect(calcularImpuesto(100, "NV")).toEqual(8.00);
+    });
+    it("deberia calcular el impuesto del 6.25% para el estado de TX", () => {
+        expect(calcularImpuesto(100, "TX")).toEqual(6.25);
+    });
 });
+

@@ -5,7 +5,6 @@ export function calcularPrecioNeto(cantidad, precioPorItem)
 
 export function calcularImpuesto(precioNeto, estado) {
     if (estado === "UT")
-
     {
         return precioNeto * 0.0665
     }
@@ -13,6 +12,10 @@ export function calcularImpuesto(precioNeto, estado) {
 
     {
         return precioNeto * 0.08
+    }
+    if (estado === "TX") 
+    {
+        return precioNeto * 0.0625;
     }
     return 0;
 }
