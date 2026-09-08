@@ -134,9 +134,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "06cf29aa5f86911977ea7e3ddc67cc40be178000",
     "commitName": "feat: calcular impuesto para el estado de California",
     "commitTimestamp": 1788876398613,
     "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788876647871,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: optimizar calculo de impuestos usando mapa de tasas por estado",
+    "commitTimestamp": 1788876667906,
+    "testId": 6
   }
 ]

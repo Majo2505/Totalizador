@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "06cf29aa5f86911977ea7e3ddc67cc40be178000",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-08T14:06:37.000Z",
       "message": "feat: calcular impuesto para el estado de California",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/06cf29aa5f86911977ea7e3ddc67cc40be178000"
     },
     "stats": {
       "total": 7,
@@ -109,6 +109,25 @@
       "date": "2026-09-08"
     },
     "coverage": 91.67,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-08T14:11:06.000Z",
+      "message": "refactor: optimizar calculo de impuestos usando mapa de tasas por estado",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 9,
+      "deletions": 22,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
     "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
