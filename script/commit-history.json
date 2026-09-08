@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bcbf3f056ba72ad0df26bd8f4f8c6300368f7cb4",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-08T14:04:22.000Z",
       "message": "feat: calcular impuesto para el estado de Alabama",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/bcbf3f056ba72ad0df26bd8f4f8c6300368f7cb4"
     },
     "stats": {
       "total": 7,
@@ -91,6 +91,25 @@
     },
     "coverage": 90,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-08T14:06:37.000Z",
+      "message": "feat: calcular impuesto para el estado de California",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 91.67,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

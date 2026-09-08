@@ -112,9 +112,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bcbf3f056ba72ad0df26bd8f4f8c6300368f7cb4",
     "commitName": "feat: calcular impuesto para el estado de Alabama",
     "commitTimestamp": 1788876264484,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788876345442,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788876381917,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para el estado de California",
+    "commitTimestamp": 1788876398613,
+    "testId": 5
   }
 ]

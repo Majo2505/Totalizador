@@ -22,5 +22,8 @@ describe("CalcularImpuesto", () => {
     it("deberia calcular el impuesto del 4.00% para el estado de AL", () => {
         expect(calcularImpuesto(100, "AL")).toEqual(4);
     });
+    it("deberia calcular el impuesto del 8.25% para el estado de CA", () => {
+        expect(calcularImpuesto(100, "CA")).toEqual(8.25);
+    });
 });
 
