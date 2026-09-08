@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a574ce1ed657d0869765f962bb6719a607a0df01",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-08T14:24:41.000Z",
       "message": "feat: calcular 0% de descuento para compras menores a 1000",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/a574ce1ed657d0869765f962bb6719a607a0df01"
     },
     "stats": {
       "total": 14,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-08T14:31:54.000Z",
+      "message": "feat: calcular 3% de descuento para compras mayores a 1000",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

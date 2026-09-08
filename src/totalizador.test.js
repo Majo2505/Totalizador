@@ -31,4 +31,7 @@ describe("CalcularDescuento", () => {
     it("deberia calcular el descuento del 0% para compras menores a 1000", () => {
         expect(calcularDescuento(500)).toEqual(0);
     });
+    it("deberia calcular el descuento del 3% para compras iguales o mayores a 1000 y menores a 3000", () => {
+        expect(calcularDescuento(1000)).toEqual(30);
+    });
 });
