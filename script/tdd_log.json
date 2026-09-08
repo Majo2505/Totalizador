@@ -90,9 +90,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8c8fe3e0020b1f2db5853cb8fe77b67bc983869a",
     "commitName": "feat: calcular impuesto para el estado de Texas",
     "commitTimestamp": 1788876138766,
     "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788876200468,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788876247306,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para el estado de Alabama",
+    "commitTimestamp": 1788876264484,
+    "testId": 4
   }
 ]
