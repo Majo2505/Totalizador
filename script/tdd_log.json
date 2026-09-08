@@ -148,9 +148,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5cb9caabcc8712475a72476bce16ef6699228d45",
     "commitName": "refactor: optimizar calculo de impuestos usando mapa de tasas por estado",
     "commitTimestamp": 1788876667906,
     "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788877222566,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788877387344,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 0% de descuento para compras menores a 1000",
+    "commitTimestamp": 1788877483080,
+    "testId": 7
   }
 ]

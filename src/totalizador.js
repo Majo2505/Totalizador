@@ -3,7 +3,8 @@ export function calcularPrecioNeto(cantidad, precioPorItem)
     return cantidad * precioPorItem;
 }
 
-export function calcularImpuesto(precioNeto, estado) {
+export function calcularImpuesto(precioNeto, estado) 
+{
     const tasasImpuesto = {
         UT: 0.0665,
         NV: 0.08,
@@ -13,4 +14,8 @@ export function calcularImpuesto(precioNeto, estado) {
     };
     const tasa = tasasImpuesto[estado] || 0;
     return precioNeto * tasa;
+}
+
+export function calcularDescuento(precioNeto) {
+  return 0;
 }

@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, calcularImpuesto} from "./totalizador.js";
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento} from "./totalizador.js";
 
 describe("CalcularPrecioNeto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -27,3 +27,8 @@ describe("CalcularImpuesto", () => {
     });
 });
 
+describe("CalcularDescuento", () => {
+    it("deberia calcular el descuento del 0% para compras menores a 1000", () => {
+        expect(calcularDescuento(500)).toEqual(0);
+    });
+});
