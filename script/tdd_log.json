@@ -16,9 +16,39 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b8d308a6c646cf93211e484e2ee6ef55c2ba2d54",
     "commitName": "feat: calcular precio neto multiplicando cantidad por precio por item",
     "commitTimestamp": 1788874256855,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788874953077,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788875387819,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788875401974,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para el estado de Utah",
+    "commitTimestamp": 1788875424953,
+    "testId": 1
   }
 ]
