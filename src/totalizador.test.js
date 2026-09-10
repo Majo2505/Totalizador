@@ -13,9 +13,6 @@ describe("CalcularImpuesto", () => {
     it("deberia calcular el impuesto del 8.00% para el estado de NV", () => {
         expect(calcularImpuesto(100, "NV")).toEqual(8.00);
     });
-    it("deberia calcular el impuesto del 8.00% para el estado de NV", () => {
-        expect(calcularImpuesto(100, "NV")).toEqual(8.00);
-    });
     it("deberia calcular el impuesto del 6.25% para el estado de TX", () => {
         expect(calcularImpuesto(100, "TX")).toEqual(6.25);
     });
@@ -45,5 +42,11 @@ describe("CalcularDescuento", () => {
     });
     it("deberia calcular el descuento del 15% para compras iguales o mayores a 30000", () => {
         expect(calcularDescuento(30000)).toEqual(4500);
+    });
+});
+describe("CalcularPrecioNeto - Validaciones", () => {
+    it("deberia retornar 'Cantidad invalida' si la cantidad esigual a cero", () => 
+    {
+        expect(calcularPrecioNeto(0, 10)).toEqual("Cantidad invalida");
     });
 });

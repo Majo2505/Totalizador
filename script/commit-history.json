@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c9c885653b0d3aa2aac4fc5d2d426a2ea1e4940b",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T06:27:20.000Z",
       "message": "refactor: optimizar logica de descuentos usando estructura iterativa de tramos",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/c9c885653b0d3aa2aac4fc5d2d426a2ea1e4940b"
     },
     "stats": {
       "total": 32,
       "additions": 14,
       "deletions": 18,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T06:44:22.000Z",
+      "message": "feat: validar que la cantidad no sea un numero cero",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
       "date": "2026-09-10"
     },
     "coverage": 100,
