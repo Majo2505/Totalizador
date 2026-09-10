@@ -166,4 +166,7 @@ describe("CalcularCostoEnvio - Rangos", () => {
     it("deberia calcular $8.0 por unidad para peso de 101 a 200", () => {
         expect(calcularCostoEnvio(150, 1)).toEqual(8.0);
     });
+    it("deberia calcular $9.0 por unidad para peso mayor a 200", () => {
+        expect(calcularCostoEnvio(250, 1)).toEqual(9.0);
+    });
 });
