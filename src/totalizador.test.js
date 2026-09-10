@@ -60,5 +60,12 @@ describe("CalcularPrecioNeto - Validaciones", () => {
     });
     it("deberia retornar 'Ingresar cantidad' si la cantidad esta vacia", () => {
         expect(calcularPrecioNeto("", 10)).toEqual("Ingresar cantidad");
+        expect(calcularPrecioNeto(null, 10)).toEqual("Ingresar cantidad");
+        expect(calcularPrecioNeto(undefined, 10)).toEqual("Ingresar cantidad");
+    });
+    it("deberia retornar 'Ingresar precio' si el precio esta vacio", () => {
+        expect(calcularPrecioNeto(10, "")).toEqual("Ingresar precio");
+        expect(calcularPrecioNeto(10, null)).toEqual("Ingresar precio");
+        expect(calcularPrecioNeto(10, undefined)).toEqual("Ingresar precio");
     });
 });

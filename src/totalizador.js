@@ -4,6 +4,10 @@ export function calcularPrecioNeto(cantidad, precioPorItem)
     {
         return "Ingresar cantidad";
     }
+    if (precioPorItem === "" || precioPorItem === null || precioPorItem === undefined) 
+    {
+        return "Ingresar precio";
+    }
     if (cantidad <= 0) 
     {
         return "Cantidad invalida";
