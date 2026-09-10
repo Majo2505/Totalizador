@@ -1104,9 +1104,31 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6f75ac3b01dac3bce56699db56a9030210aafdb7",
     "commitName": "feat: calcular 1% de descuento en envio para cliente antiguo recurrente",
     "commitTimestamp": 1789030149290,
     "testId": 48
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1789030165763,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1789030182706,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 1.5% de descuento en envio para cliente especial",
+    "commitTimestamp": 1789030188700,
+    "testId": 49
   }
 ]
