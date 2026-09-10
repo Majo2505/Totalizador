@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "54103024089a6d948eed5952adb9f40224f56faa",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T06:11:42.000Z",
       "message": "feat: calcular 5% de descuento para compras mayores a 3000",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/54103024089a6d948eed5952adb9f40224f56faa"
     },
     "stats": {
       "total": 7,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T06:16:54.000Z",
+      "message": "feat: calcular 7% de descuento para compras mayores a 7000",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
