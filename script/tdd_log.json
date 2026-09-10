@@ -722,9 +722,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "670a1f156d2e5322545c21ff40f13163abe515a6",
     "commitName": "feat: calcular descuento adicional del 1% para electronicos",
     "commitTimestamp": 1789027339344,
     "testId": 31
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789027381448,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1789027396717,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto adicional del 2% para vestimenta",
+    "commitTimestamp": 1789027406165,
+    "testId": 32
   }
 ]

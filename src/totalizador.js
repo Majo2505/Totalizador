@@ -68,7 +68,8 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
         "Bebidas alcoholicas": 0.07,
         "Material de escritorio": 0.00,
         Muebles: 0.03,
-        Electronicos: 0.04
+        Electronicos: 0.04,
+        Vestimenta: 0.02
         
     };
     const tasa = impuestosCategoria[categoria];
