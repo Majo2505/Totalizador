@@ -157,4 +157,7 @@ describe("CalcularCostoEnvio - Rangos", () => {
         expect(calcularCostoEnvio(25, 2)).toEqual(10.0);
         expect(calcularCostoEnvio(40, 1)).toEqual(5.0);
     });
+    it("deberia calcular $6.0 por unidad para peso de 41 a 80", () => {
+        expect(calcularCostoEnvio(50, 1)).toEqual(6.0);
+    });
 });
