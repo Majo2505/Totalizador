@@ -1064,17 +1064,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d8c60ab8ddbd5fd17a58018ab705147693ac3850",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T09:20:25.000Z",
       "message": "feat: implementar consolidacion de totalizador sumando impuestos, descuentos y precio total final",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/d8c60ab8ddbd5fd17a58018ab705147693ac3850"
     },
     "stats": {
       "total": 33,
       "additions": 32,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T09:23:36.000Z",
+      "message": "feat: agregar interfaz HTML con formulario de captura para el totalizador",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 76,
+      "additions": 65,
+      "deletions": 11,
       "date": "2026-09-10"
     },
     "coverage": 100,

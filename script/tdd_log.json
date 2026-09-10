@@ -1272,9 +1272,15 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d8c60ab8ddbd5fd17a58018ab705147693ac3850",
     "commitName": "feat: implementar consolidacion de totalizador sumando impuestos, descuentos y precio total final",
     "commitTimestamp": 1789032026685,
     "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar interfaz HTML con formulario de captura para el totalizador",
+    "commitTimestamp": 1789032219501,
+    "testId": 57
   }
 ]
