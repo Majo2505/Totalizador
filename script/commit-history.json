@@ -1102,17 +1102,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f4ac8aeb2730da67285d69f56e0680296d95e646",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T09:26:04.000Z",
       "message": "feat: conectar presenter del DOM con la funcion integradora calcularTotalizador",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/f4ac8aeb2730da67285d69f56e0680296d95e646"
     },
     "stats": {
       "total": 43,
       "additions": 34,
       "deletions": 9,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T09:42:22.000Z",
+      "message": "fix: establecer California (CA) y Varios como opciones predeterminadas en el formulario",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-09-10"
     },
     "coverage": 100,

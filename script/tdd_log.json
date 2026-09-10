@@ -1284,9 +1284,15 @@
     "testId": 57
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f4ac8aeb2730da67285d69f56e0680296d95e646",
     "commitName": "feat: conectar presenter del DOM con la funcion integradora calcularTotalizador",
     "commitTimestamp": 1789032365641,
     "testId": 58
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: establecer California (CA) y Varios como opciones predeterminadas en el formulario",
+    "commitTimestamp": 1789033344082,
+    "testId": 59
   }
 ]
