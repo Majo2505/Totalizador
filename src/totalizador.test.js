@@ -177,4 +177,7 @@ describe("CalcularDescuentoEnvioCliente", () => {
     it("deberia calcular 0% de descuento en el costo de envio para cliente Normal", () => {
         expect(calcularDescuentoEnvioCliente(100, "Normal")).toEqual(0);
     });
+    it("deberia calcular 0.5% de descuento en el costo de envio para cliente Recurrente", () => {
+        expect(calcularDescuentoEnvioCliente(100, "Recurrente")).toEqual(0.5);
+    });
 });

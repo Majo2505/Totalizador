@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "534126d4780e48810fae205bd47fc6d15c793f2e",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:47:13.000Z",
       "message": "feat: calcular 0% de descuento en envio para cliente normal",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/534126d4780e48810fae205bd47fc6d15c793f2e"
     },
     "stats": {
       "total": 18,
@@ -889,6 +889,25 @@
     },
     "coverage": 100,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:48:24.000Z",
+      "message": "feat: calcular 0.5% de descuento en envio para cliente recurrente",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

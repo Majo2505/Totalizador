@@ -1060,9 +1060,31 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "534126d4780e48810fae205bd47fc6d15c793f2e",
     "commitName": "feat: calcular 0% de descuento en envio para cliente normal",
     "commitTimestamp": 1789030034605,
     "testId": 46
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 1,
+    "numTotalTests": 46,
+    "timestamp": 1789030071826,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1789030097667,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 0.5% de descuento en envio para cliente recurrente",
+    "commitTimestamp": 1789030105914,
+    "testId": 47
   }
 ]
