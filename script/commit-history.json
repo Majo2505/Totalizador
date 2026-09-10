@@ -1007,17 +1007,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "37164d8f3a12f3326c75b5aad4c8e4ffa9ae573c",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:56:52.000Z",
       "message": "test: verificar que retorne 0 cuando no se cumplen las condiciones de descuento fijo",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/37164d8f3a12f3326c75b5aad4c8e4ffa9ae573c"
     },
     "stats": {
       "total": 6,
       "additions": 6,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:59:30.000Z",
+      "message": "refactor: simplificar calculo de descuento fijo por cliente mediante reglas declarativas",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 13,
+      "deletions": 7,
       "date": "2026-09-10"
     },
     "coverage": 100,

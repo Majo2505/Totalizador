@@ -1206,9 +1206,23 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "37164d8f3a12f3326c75b5aad4c8e4ffa9ae573c",
     "commitName": "test: verificar que retorne 0 cuando no se cumplen las condiciones de descuento fijo",
     "commitTimestamp": 1789030614193,
     "testId": 53
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1789030757055,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: simplificar calculo de descuento fijo por cliente mediante reglas declarativas",
+    "commitTimestamp": 1789030771467,
+    "testId": 54
   }
 ]

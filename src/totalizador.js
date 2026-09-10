@@ -144,11 +144,17 @@ export function calcularDescuentoEnvioCliente(costoEnvio, tipoCliente) {
 }
 
 export function calcularDescuentoFijoCliente(precioNeto, categoria, tipoCliente) {
-    if (tipoCliente === "Recurrente" && categoria === "Alimentos" && precioNeto > 3000) {
-        return 100;
-    }
-    if (tipoCliente === "Especial" && categoria === "Electronicos" && precioNeto > 7000) {
-        return 200;
-    }
-    return 0;
+    const reglasDescuentoFijo = [
+        { tipoCliente: "Recurrente", categoria: "Alimentos", minPrecioNeto: 3000, descuento: 100 },
+        { tipoCliente: "Especial", categoria: "Electronicos", minPrecioNeto: 7000, descuento: 200 }
+    ];
+
+    const reglaAplicada = reglasDescuentoFijo.find(
+        (regla) =>
+            regla.tipoCliente === tipoCliente &&
+            regla.categoria === categoria &&
+            precioNeto > regla.minPrecioNeto
+    );
+
+    return reglaAplicada ? reglaAplicada.descuento : 0;
 }
