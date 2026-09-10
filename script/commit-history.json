@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6e79f04fd0a9a9b4fdf392e79fa6005aa1d69c32",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T07:47:32.000Z",
       "message": "feat: calcular impuesto adicional del 7% para bebidas alcoholicas",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/6e79f04fd0a9a9b4fdf392e79fa6005aa1d69c32"
     },
     "stats": {
       "total": 6,
@@ -471,6 +471,25 @@
     },
     "coverage": 100,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T07:50:04.000Z",
+      "message": "feat: calcular descuento adicional del 0% para bebidas alcoholicas",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 7,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -560,9 +560,39 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6e79f04fd0a9a9b4fdf392e79fa6005aa1d69c32",
     "commitName": "feat: calcular impuesto adicional del 7% para bebidas alcoholicas",
     "commitTimestamp": 1789026453601,
     "testId": 24
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789026510525,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789026559808,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789026583306,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento adicional del 0% para bebidas alcoholicas",
+    "commitTimestamp": 1789026606124,
+    "testId": 25
   }
 ]

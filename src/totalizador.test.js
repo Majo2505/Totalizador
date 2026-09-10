@@ -92,4 +92,7 @@ describe("CalcularDescuentoCategoria", () => {
     it("deberia calcular 2% de descuento adicional para la categoria Alimentos", () => {
         expect(calcularDescuentoCategoria(100, "Alimentos")).toEqual(2);
     });
+    it("deberia calcular 0% de descuento adicional para Bebidas alcoholicas", () => {
+        expect(calcularDescuentoCategoria(100, "Bebidas alcoholicas")).toEqual(0);
+    });
 });
