@@ -45,8 +45,11 @@ describe("CalcularDescuento", () => {
     });
 });
 describe("CalcularPrecioNeto - Validaciones", () => {
-    it("deberia retornar 'Cantidad invalida' si la cantidad esigual a cero", () => 
+    it("deberia retornar 'Cantidad invalida' si la cantidad es igual a cero", () => 
     {
         expect(calcularPrecioNeto(0, 10)).toEqual("Cantidad invalida");
+    });
+    it("deberia retornar 'Cantidad invalida' si la cantidad es menor a cero", () => {
+        expect(calcularPrecioNeto(-5, 10)).toEqual("Cantidad invalida");
     });
 });

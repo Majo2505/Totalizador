@@ -332,9 +332,31 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "93274724686620825687df672de786019cbe03ae",
     "commitName": "feat: validar que la cantidad no sea un numero cero",
     "commitTimestamp": 1789022663795,
     "testId": 14
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789022827316,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789022860436,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que la cantidad no sea un numero negativo",
+    "commitTimestamp": 1789022881289,
+    "testId": 15
   }
 ]
