@@ -969,12 +969,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d71fbb609eb293ed23429ed34ae827df89602fbf",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:54:06.000Z",
       "message": "feat: aplicar descuento fijo de 100 $ a cliente recurrente en alimentos mayores a 3000",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/d71fbb609eb293ed23429ed34ae827df89602fbf"
     },
     "stats": {
       "total": 17,
@@ -984,6 +984,25 @@
     },
     "coverage": 98.21,
     "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:54:58.000Z",
+      "message": "feat: aplicar descuento fijo de 200 a cliente especial en electronicos mayores a 7000",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 50,
     "failed_tests": 0,
     "conclusion": "success"
   }

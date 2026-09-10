@@ -147,5 +147,7 @@ export function calcularDescuentoFijoCliente(precioNeto, categoria, tipoCliente)
     if (tipoCliente === "Recurrente" && categoria === "Alimentos" && precioNeto > 3000) {
         return 100;
     }
-    return 0;
+    if (tipoCliente === "Especial" && categoria === "Electronicos" && precioNeto > 7000) {
+        return 200;
+    }
 }

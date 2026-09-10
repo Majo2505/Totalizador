@@ -192,4 +192,7 @@ describe("CalcularDescuentoFijoCliente", () => {
     it("deberia retornar $100 de descuento para cliente Recurrente en Alimentos con precio neto mayor a $3000", () => {
         expect(calcularDescuentoFijoCliente(3500, "Alimentos", "Recurrente")).toEqual(100);
     });
+    it("deberia retornar $200 de descuento para cliente Especial en Electronicos con precio neto mayor a $7000", () => {
+        expect(calcularDescuentoFijoCliente(8000, "Electronicos", "Especial")).toEqual(200);
+    });
 });

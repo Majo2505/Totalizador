@@ -1162,9 +1162,31 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d71fbb609eb293ed23429ed34ae827df89602fbf",
     "commitName": "feat: aplicar descuento fijo de 100 $ a cliente recurrente en alimentos mayores a 3000",
     "commitTimestamp": 1789030448358,
     "testId": 51
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 1,
+    "numTotalTests": 50,
+    "timestamp": 1789030469840,
+    "success": false,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1789030489669,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento fijo de 200 a cliente especial en electronicos mayores a 7000",
+    "commitTimestamp": 1789030500365,
+    "testId": 52
   }
 ]
