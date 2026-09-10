@@ -69,3 +69,11 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
     const tasa = impuestosCategoria[categoria] || 0;
     return Number((precioNeto * tasa).toFixed(2));
 }
+
+export function calcularDescuentoCategoria(precioNeto, categoria) {
+    const descuentosCategoria = {
+        Alimentos: 0.02
+    };
+    const tasa = descuentosCategoria[categoria] || 0;
+    return Number((precioNeto * tasa).toFixed(2));
+}

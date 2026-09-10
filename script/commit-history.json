@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ba5f4e1ecc7ac5930cd352385288780afefe2b19",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T07:41:55.000Z",
       "message": "feat: calcular impuesto adicional para la categoria alimentos",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/ba5f4e1ecc7ac5930cd352385288780afefe2b19"
     },
     "stats": {
       "total": 18,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T07:43:30.000Z",
+      "message": "feat: calcular descuento  adicional para la categoria alimentos",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

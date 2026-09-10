@@ -508,9 +508,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ba5f4e1ecc7ac5930cd352385288780afefe2b19",
     "commitName": "feat: calcular impuesto adicional para la categoria alimentos",
     "commitTimestamp": 1789026117630,
     "testId": 22
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1789026182122,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1789026190303,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento  adicional para la categoria alimentos",
+    "commitTimestamp": 1789026211851,
+    "testId": 23
   }
 ]
