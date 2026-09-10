@@ -464,9 +464,31 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "212f40487bc0fe3362e308990feb2a23053084cf",
     "commitName": "feat: validar formato no numerico en cantidad",
     "commitTimestamp": 1789024642447,
     "testId": 20
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1789024669965,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1789024711143,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar formato no numerico en precio",
+    "commitTimestamp": 1789024740021,
+    "testId": 21
   }
 ]
