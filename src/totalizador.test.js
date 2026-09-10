@@ -83,6 +83,9 @@ describe("CalcularImpuestoCategoria", () => {
     it("deberia calcular 0% de impuesto adicional para la categoria Alimentos", () => {
         expect(calcularImpuestoCategoria(100, "Alimentos")).toEqual(0);
     });
+    it("deberia calcular 7% de impuesto adicional para Bebidas alcoholicas", () => {
+        expect(calcularImpuestoCategoria(100, "Bebidas alcoholicas")).toEqual(7);
+    });
 });
 
 describe("CalcularDescuentoCategoria", () => {

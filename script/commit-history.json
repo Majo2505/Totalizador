@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e0b79eacbba85454b5d4487d37959681f47c09f",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T07:43:30.000Z",
       "message": "feat: calcular descuento  adicional para la categoria alimentos",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/9e0b79eacbba85454b5d4487d37959681f47c09f"
     },
     "stats": {
       "total": 14,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T07:47:32.000Z",
+      "message": "feat: calcular impuesto adicional del 7% para bebidas alcoholicas",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

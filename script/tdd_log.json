@@ -530,9 +530,39 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9e0b79eacbba85454b5d4487d37959681f47c09f",
     "commitName": "feat: calcular descuento  adicional para la categoria alimentos",
     "commitTimestamp": 1789026211851,
     "testId": 23
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1789026369359,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1789026411174,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789026432445,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto adicional del 7% para bebidas alcoholicas",
+    "commitTimestamp": 1789026453601,
+    "testId": 24
   }
 ]
