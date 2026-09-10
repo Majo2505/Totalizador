@@ -244,9 +244,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d575ab320c3f7dc1644fd7021bafaf8692420ce6",
     "commitName": "feat: calcular 7% de descuento para compras mayores a 7000",
     "commitTimestamp": 1789021016283,
     "testId": 10
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789021136156,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789021208585,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 10% de descuento para compras mayores a 10000",
+    "commitTimestamp": 1789021245501,
+    "testId": 11
   }
 ]

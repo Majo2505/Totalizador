@@ -18,6 +18,10 @@ export function calcularImpuesto(precioNeto, estado)
 
 export function calcularDescuento(precioNeto) 
 {
+    if (precioNeto >= 10000) 
+    {
+        return precioNeto * 0.1;
+    }
     if (precioNeto >= 7000) 
     {
         return Number((precioNeto * 0.07).toFixed(2));
