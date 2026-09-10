@@ -678,9 +678,31 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8d66c4f147d284a03c08b8bfe5b5d85a722b8e25",
     "commitName": "feat: calcular descuento adicional del 0% para muebles",
     "commitTimestamp": 1789027207023,
     "testId": 29
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 1,
+    "numTotalTests": 29,
+    "timestamp": 1789027252660,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1789027270931,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto adicional del 4% para electronicos",
+    "commitTimestamp": 1789027278772,
+    "testId": 30
   }
 ]

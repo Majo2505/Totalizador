@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8d66c4f147d284a03c08b8bfe5b5d85a722b8e25",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:00:05.000Z",
       "message": "feat: calcular descuento adicional del 0% para muebles",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/8d66c4f147d284a03c08b8bfe5b5d85a722b8e25"
     },
     "stats": {
       "total": 6,
@@ -566,6 +566,25 @@
     },
     "coverage": 100,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:01:17.000Z",
+      "message": "feat: calcular impuesto adicional del 4% para electronicos",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

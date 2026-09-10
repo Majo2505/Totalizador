@@ -92,6 +92,9 @@ describe("CalcularImpuestoCategoria", () => {
     it("deberia calcular 3% de impuesto adicional para Muebles", () => {
         expect(calcularImpuestoCategoria(100, "Muebles")).toEqual(3);
     });
+    it("deberia calcular 4% de impuesto adicional para Electronicos", () => {
+        expect(calcularImpuestoCategoria(100, "Electronicos")).toEqual(4);
+    });
 });
 
 describe("CalcularDescuentoCategoria", () => {
