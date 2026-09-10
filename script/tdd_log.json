@@ -1220,9 +1220,39 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "03fc980a0c0c6744293f9e6219bf12e526c315f2",
     "commitName": "refactor: simplificar calculo de descuento fijo por cliente mediante reglas declarativas",
     "commitTimestamp": 1789030771467,
     "testId": 54
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1789031714904,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1789031749572,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1789031884006,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar obtencion de componentes individuales del desglose de compra",
+    "commitTimestamp": 1789031893726,
+    "testId": 55
   }
 ]

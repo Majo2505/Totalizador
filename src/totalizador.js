@@ -158,3 +158,39 @@ export function calcularDescuentoFijoCliente(precioNeto, categoria, tipoCliente)
 
     return reglaAplicada ? reglaAplicada.descuento : 0;
 }
+
+export function obtenerDesglose({
+    cantidad,
+    precio,
+    estado,
+    categoria,
+    pesoVolumetrico,
+    tipoCliente
+}) {
+    const cant = Number(cantidad);
+    const prec = Number(precio);
+    const precioNeto = Number((cant * prec).toFixed(2));
+
+    const descuentoMonto = calcularDescuento(precioNeto);
+    const descuentoCategoria = calcularDescuentoCategoria(precioNeto, categoria);
+    const impuestoEstado = calcularImpuesto(precioNeto, estado);
+    const impuestoCategoria = calcularImpuestoCategoria(precioNeto, categoria);
+    
+    const costoEnvioBase = calcularCostoEnvio(pesoVolumetrico, cant);
+    const descuentoEnvioCliente = calcularDescuentoEnvioCliente(costoEnvioBase, tipoCliente);
+    const costoEnvioFinal = Number((costoEnvioBase - descuentoEnvioCliente).toFixed(2));
+
+    const descuentoFijoCliente = calcularDescuentoFijoCliente(precioNeto, categoria, tipoCliente);
+
+    return {
+        precioNeto,
+        descuentoMonto,
+        descuentoCategoria,
+        impuestoEstado,
+        impuestoCategoria,
+        costoEnvioBase,
+        descuentoEnvioCliente,
+        descuentoFijoCliente,
+        costoEnvioFinal
+    };
+}

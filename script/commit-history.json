@@ -1026,12 +1026,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "03fc980a0c0c6744293f9e6219bf12e526c315f2",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:59:30.000Z",
       "message": "refactor: simplificar calculo de descuento fijo por cliente mediante reglas declarativas",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/03fc980a0c0c6744293f9e6219bf12e526c315f2"
     },
     "stats": {
       "total": 20,
@@ -1041,6 +1041,25 @@
     },
     "coverage": 100,
     "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T09:18:12.000Z",
+      "message": "feat: implementar obtencion de componentes individuales del desglose de compra",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 64,
+      "additions": 63,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 52,
     "failed_tests": 0,
     "conclusion": "success"
   }

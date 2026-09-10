@@ -1,6 +1,7 @@
 import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, 
     calcularImpuestoCategoria, calcularDescuentoCategoria,
-    calcularCostoEnvio, calcularDescuentoEnvioCliente, calcularDescuentoFijoCliente } from "./totalizador.js";
+    calcularCostoEnvio, calcularDescuentoEnvioCliente, 
+    calcularDescuentoFijoCliente, obtenerDesglose } from "./totalizador.js";
 
 describe("CalcularPrecioNeto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -199,5 +200,30 @@ describe("CalcularDescuentoFijoCliente", () => {
         expect(calcularDescuentoFijoCliente(2000, "Alimentos", "Recurrente")).toEqual(0);
         expect(calcularDescuentoFijoCliente(8000, "Muebles", "Especial")).toEqual(0);
         expect(calcularDescuentoFijoCliente(5000, "Electronicos", "Normal")).toEqual(0);
+    });
+});
+
+describe("ObtenerDesglose - Componentes Individuales", () => {
+    it("deberia calcular y retornar de forma aislada cada componente del desglose", () => {
+        const desglose = obtenerDesglose({
+            cantidad: 10,
+            precio: 400,
+            estado: "CA",
+            categoria: "Alimentos",
+            pesoVolumetrico: 15,
+            tipoCliente: "Recurrente"
+        });
+
+        expect(desglose).toEqual({
+            precioNeto: 4000,
+            descuentoMonto: 200,
+            descuentoCategoria: 80,
+            impuestoEstado: 330,
+            impuestoCategoria: 0,
+            costoEnvioBase: 35,
+            descuentoEnvioCliente: 0.18,
+            descuentoFijoCliente: 100,
+            costoEnvioFinal: 34.82
+        });
     });
 });
