@@ -810,9 +810,31 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b8df1566b82daffba8aa4e6b58acae4a97d5cb3c",
     "commitName": "feat: calcular descuento adicional del 0% para categoria varios",
     "commitTimestamp": 1789027591280,
     "testId": 35
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1789028090709,
+    "success": false,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789028104725,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar campo de peso volumetrico vacio",
+    "commitTimestamp": 1789028117333,
+    "testId": 36
   }
 ]

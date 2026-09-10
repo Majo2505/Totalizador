@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularImpuestoCategoria, calcularDescuentoCategoria} from "./totalizador.js";
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularImpuestoCategoria, calcularDescuentoCategoria, calcularCostoEnvio } from "./totalizador.js";
 
 describe("CalcularPrecioNeto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -124,5 +124,13 @@ describe("CalcularDescuentoCategoria", () => {
     });
     it("deberia calcular 0% de descuento adicional para Varios", () => {
         expect(calcularDescuentoCategoria(100, "Varios")).toEqual(0);
+    });
+});
+
+describe("CalcularCostoEnvio - Validaciones", () => {
+    it("deberia retornar 'Ingresar peso' si el peso esta vacio", () => {
+        expect(calcularCostoEnvio("", 10)).toEqual("Ingresar peso");
+        expect(calcularCostoEnvio(null, 10)).toEqual("Ingresar peso");
+        expect(calcularCostoEnvio(undefined, 10)).toEqual("Ingresar peso");
     });
 });

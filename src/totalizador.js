@@ -89,3 +89,10 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
     const tasa = descuentosCategoria[categoria];
     return Number((precioNeto * tasa).toFixed(2));
 }
+
+export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
+    if (pesoVolumetrico === "" || pesoVolumetrico === null || pesoVolumetrico === undefined) {
+        return "Ingresar peso";
+    }
+    return 0;
+}

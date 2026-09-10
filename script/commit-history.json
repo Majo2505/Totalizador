@@ -665,12 +665,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b8df1566b82daffba8aa4e6b58acae4a97d5cb3c",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:06:29.000Z",
       "message": "feat: calcular descuento adicional del 0% para categoria varios",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/b8df1566b82daffba8aa4e6b58acae4a97d5cb3c"
     },
     "stats": {
       "total": 6,
@@ -680,6 +680,25 @@
     },
     "coverage": 100,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:15:15.000Z",
+      "message": "feat: validar campo de peso volumetrico vacio",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.67,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }
