@@ -1278,9 +1278,15 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5620b8787e79b862c089c56b552ddf1b9446791c",
     "commitName": "feat: agregar interfaz HTML con formulario de captura para el totalizador",
     "commitTimestamp": 1789032219501,
     "testId": 57
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: conectar presenter del DOM con la funcion integradora calcularTotalizador",
+    "commitTimestamp": 1789032365641,
+    "testId": 58
   }
 ]

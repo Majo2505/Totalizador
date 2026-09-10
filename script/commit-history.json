@@ -1083,17 +1083,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5620b8787e79b862c089c56b552ddf1b9446791c",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T09:23:36.000Z",
       "message": "feat: agregar interfaz HTML con formulario de captura para el totalizador",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/5620b8787e79b862c089c56b552ddf1b9446791c"
     },
     "stats": {
       "total": 76,
       "additions": 65,
       "deletions": 11,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T09:26:04.000Z",
+      "message": "feat: conectar presenter del DOM con la funcion integradora calcularTotalizador",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 43,
+      "additions": 34,
+      "deletions": 9,
       "date": "2026-09-10"
     },
     "coverage": 100,
