@@ -139,5 +139,8 @@ export function calcularDescuentoEnvioCliente(costoEnvio, tipoCliente) {
     else if (tipoCliente === "Recurrente") {
         porcentaje = 0.005;
     }
+    else if (tipoCliente === "Antiguo Recurrente") {
+        porcentaje = 0.01;
+    }
     return Number((costoEnvio * porcentaje).toFixed(2));
 }

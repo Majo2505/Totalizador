@@ -180,4 +180,7 @@ describe("CalcularDescuentoEnvioCliente", () => {
     it("deberia calcular 0.5% de descuento en el costo de envio para cliente Recurrente", () => {
         expect(calcularDescuentoEnvioCliente(100, "Recurrente")).toEqual(0.5);
     });
-});
+    it("deberia calcular 1.0% de descuento en el costo de envio para cliente Antiguo Recurrente", () => {
+        expect(calcularDescuentoEnvioCliente(100, "Antiguo Recurrente")).toEqual(1);
+    });
+}); 
