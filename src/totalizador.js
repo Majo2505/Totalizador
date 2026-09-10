@@ -96,11 +96,20 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
     }
 
     const peso = Number(pesoVolumetrico);
+    const cant = Number(cantidad);
+
     if (Number.isNaN(peso)) {
         return "Formato invalido";
     }
     if (peso < 0) {
         return "Peso invalido";
     }
-    return 0;
+    
+
+    let tarifaPorUnidad = 0;
+    if (peso <= 10) {
+        tarifaPorUnidad = 0;
+    }
+
+    return Number((tarifaPorUnidad * cant).toFixed(2));
 }

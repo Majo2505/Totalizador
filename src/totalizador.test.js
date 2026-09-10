@@ -141,3 +141,12 @@ describe("CalcularCostoEnvio - Validaciones", () => {
         expect(calcularCostoEnvio(-5, 10)).toEqual("Peso invalido");
     });
 });
+
+describe("CalcularCostoEnvio - Rangos", () => {
+    it("deberia calcular $0 de costo de envio para peso volumetrico entre 0 y 10", () => {
+        expect(calcularCostoEnvio(5, 10)).toEqual(0);
+        expect(calcularCostoEnvio(10, 10)).toEqual(0);
+    });
+
+    
+});

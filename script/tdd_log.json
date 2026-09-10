@@ -876,9 +876,39 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9817f3a9ecaf085d569894e32e9cc7c81f3fec61",
     "commitName": "feat: validar que el peso volumetrico no sea negativo",
     "commitTimestamp": 1789028326527,
     "testId": 38
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1789028432370,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 1,
+    "numTotalTests": 38,
+    "timestamp": 1789028456010,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1789028608087,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular costo de envio para peso volumetrico de 0 a 10",
+    "commitTimestamp": 1789028622049,
+    "testId": 39
   }
 ]
