@@ -137,4 +137,7 @@ describe("CalcularCostoEnvio - Validaciones", () => {
         expect(calcularCostoEnvio("abc", 10)).toEqual("Formato invalido");
         expect(calcularCostoEnvio(NaN, 10)).toEqual("Formato invalido");
     });
+    it("deberia retornar 'Peso invalido' si el peso es menor a 0", () => {
+        expect(calcularCostoEnvio(-5, 10)).toEqual("Peso invalido");
+    });
 });

@@ -854,9 +854,31 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "038b71f4b65c3f7ed25477570ca0ea92819e5dde",
     "commitName": "feat: validar formato no numerico en peso volumetrico",
     "commitTimestamp": 1789028232272,
     "testId": 37
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1789028264588,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1789028302785,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que el peso volumetrico no sea negativo",
+    "commitTimestamp": 1789028326527,
+    "testId": 38
   }
 ]

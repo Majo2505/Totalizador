@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "038b71f4b65c3f7ed25477570ca0ea92819e5dde",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:17:10.000Z",
       "message": "feat: validar formato no numerico en peso volumetrico",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/038b71f4b65c3f7ed25477570ca0ea92819e5dde"
     },
     "stats": {
       "total": 9,
@@ -718,6 +718,25 @@
     },
     "coverage": 96.97,
     "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:18:44.000Z",
+      "message": "feat: validar que el peso volumetrico no sea negativo",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.14,
+    "test_count": 37,
     "failed_tests": 0,
     "conclusion": "success"
   }

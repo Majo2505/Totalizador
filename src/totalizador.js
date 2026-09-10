@@ -99,5 +99,8 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
     if (Number.isNaN(peso)) {
         return "Formato invalido";
     }
+    if (peso < 0) {
+        return "Peso invalido";
+    }
     return 0;
 }
