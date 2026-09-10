@@ -113,6 +113,9 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
     else if (peso <= 20) {
         tarifaPorUnidad = 3.5;
     }
+    else if (peso <= 40) {
+        tarifaPorUnidad = 5.0;
+    }
 
     return Number((tarifaPorUnidad * cant).toFixed(2));
 }

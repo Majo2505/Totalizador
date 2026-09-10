@@ -152,4 +152,9 @@ describe("CalcularCostoEnvio - Rangos", () => {
         expect(calcularCostoEnvio(15, 2)).toEqual(7.0);
         expect(calcularCostoEnvio(20, 1)).toEqual(3.5);
     });
+
+    it("deberia calcular $5.0 por unidad de costo de envio para peso volumetrico entre 21 y 40", () => {
+        expect(calcularCostoEnvio(25, 2)).toEqual(10.0);
+        expect(calcularCostoEnvio(40, 1)).toEqual(5.0);
+    });
 });
