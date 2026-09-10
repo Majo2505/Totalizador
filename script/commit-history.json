@@ -855,12 +855,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6a3351b85bc5e81a5e57fb60a4070e62d39b1f2a",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:39:24.000Z",
       "message": "feat: calcular costo de envio para peso volumetrico mayor a 200",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/6a3351b85bc5e81a5e57fb60a4070e62d39b1f2a"
     },
     "stats": {
       "total": 6,
@@ -870,6 +870,25 @@
     },
     "coverage": 100,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:47:13.000Z",
+      "message": "feat: calcular 0% de descuento en envio para cliente normal",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }

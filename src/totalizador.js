@@ -130,3 +130,11 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
     }
     return Number((tarifaPorUnidad * cant).toFixed(2));
 }
+
+export function calcularDescuentoEnvioCliente(costoEnvio, tipoCliente) {
+    let porcentaje = 0;
+    if (tipoCliente === "Normal") {
+        porcentaje = 0;
+    }
+    return Number((costoEnvio * porcentaje).toFixed(2));
+}

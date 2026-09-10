@@ -1038,9 +1038,31 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a3351b85bc5e81a5e57fb60a4070e62d39b1f2a",
     "commitName": "feat: calcular costo de envio para peso volumetrico mayor a 200",
     "commitTimestamp": 1789029566282,
     "testId": 45
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1789029884107,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789030024441,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular 0% de descuento en envio para cliente normal",
+    "commitTimestamp": 1789030034605,
+    "testId": 46
   }
 ]

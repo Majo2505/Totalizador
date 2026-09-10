@@ -1,4 +1,6 @@
-import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularImpuestoCategoria, calcularDescuentoCategoria, calcularCostoEnvio } from "./totalizador.js";
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, 
+    calcularImpuestoCategoria, calcularDescuentoCategoria,
+    calcularCostoEnvio, calcularDescuentoEnvioCliente } from "./totalizador.js";
 
 describe("CalcularPrecioNeto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -168,5 +170,11 @@ describe("CalcularCostoEnvio - Rangos", () => {
     });
     it("deberia calcular $9.0 por unidad para peso mayor a 200", () => {
         expect(calcularCostoEnvio(250, 1)).toEqual(9.0);
+    });
+});
+
+describe("CalcularDescuentoEnvioCliente", () => {
+    it("deberia calcular 0% de descuento en el costo de envio para cliente Normal", () => {
+        expect(calcularDescuentoEnvioCliente(100, "Normal")).toEqual(0);
     });
 });
