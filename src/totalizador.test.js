@@ -89,6 +89,9 @@ describe("CalcularImpuestoCategoria", () => {
     it("deberia calcular 0% de impuesto adicional para Material de escritorio", () => {
         expect(calcularImpuestoCategoria(100, "Material de escritorio")).toEqual(0);
     });
+    it("deberia calcular 3% de impuesto adicional para Muebles", () => {
+        expect(calcularImpuestoCategoria(100, "Muebles")).toEqual(3);
+    });
 });
 
 describe("CalcularDescuentoCategoria", () => {
