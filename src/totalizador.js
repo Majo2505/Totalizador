@@ -8,6 +8,11 @@ export function calcularPrecioNeto(cantidad, precioPorItem)
     {
         return "Ingresar precio";
     }
+    const cant = Number(cantidad);
+    if (Number.isNaN(cant)) 
+    {
+        return "Formato invalido";
+    }
     if (cantidad <= 0) 
     {
         return "Cantidad invalida";

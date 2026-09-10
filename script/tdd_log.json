@@ -442,9 +442,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4edead571c863d0c8ab6e632e13c715b8aae6c26",
     "commitName": "feat: validar campo de precio vacio",
     "commitTimestamp": 1789024431407,
     "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789024571539,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1789024621612,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar formato no numerico en cantidad",
+    "commitTimestamp": 1789024642447,
+    "testId": 20
   }
 ]

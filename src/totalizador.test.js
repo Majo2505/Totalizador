@@ -68,4 +68,8 @@ describe("CalcularPrecioNeto - Validaciones", () => {
         expect(calcularPrecioNeto(10, null)).toEqual("Ingresar precio");
         expect(calcularPrecioNeto(10, undefined)).toEqual("Ingresar precio");
     });
+    it("deberia retornar 'Formato invalido' si la cantidad no es un numero", () => {
+        expect(calcularPrecioNeto("abc", 10)).toEqual("Formato invalido");
+        expect(calcularPrecioNeto(NaN, 10)).toEqual("Formato invalido");
+    }); 
 });

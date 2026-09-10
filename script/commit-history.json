@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4edead571c863d0c8ab6e632e13c715b8aae6c26",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T07:13:49.000Z",
       "message": "feat: validar campo de precio vacio",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/4edead571c863d0c8ab6e632e13c715b8aae6c26"
     },
     "stats": {
       "total": 11,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T07:17:20.000Z",
+      "message": "feat: validar formato no numerico en cantidad",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }
