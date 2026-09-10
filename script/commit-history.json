@@ -817,12 +817,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "446eb481ae33f67ff355103c3cd1da468116e4a6",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:37:12.000Z",
       "message": "feat: calcular costo de envio para peso volumetrico de 81 a 100",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/446eb481ae33f67ff355103c3cd1da468116e4a6"
     },
     "stats": {
       "total": 6,
@@ -832,6 +832,25 @@
     },
     "coverage": 100,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:38:31.000Z",
+      "message": "feat: calcular costo de envio para peso volumetrico de 101 a 200",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }
