@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6cc7d39c203818c8c5c919044fac89369fd724f0",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T07:53:35.000Z",
       "message": "feat: calcular impuesto adicional del 0% para material de escritorio",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/6cc7d39c203818c8c5c919044fac89369fd724f0"
     },
     "stats": {
       "total": 6,
@@ -509,6 +509,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T07:55:48.000Z",
+      "message": "feat: calcular descuento adicional del 1.5% para material de escritorio",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

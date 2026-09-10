@@ -612,9 +612,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6cc7d39c203818c8c5c919044fac89369fd724f0",
     "commitName": "feat: calcular impuesto adicional del 0% para material de escritorio",
     "commitTimestamp": 1789026816714,
     "testId": 26
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1789026914736,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1789026931934,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento adicional del 1.5% para material de escritorio",
+    "commitTimestamp": 1789026950340,
+    "testId": 27
   }
 ]

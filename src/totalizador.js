@@ -75,7 +75,8 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
 export function calcularDescuentoCategoria(precioNeto, categoria) {
     const descuentosCategoria = {
         Alimentos: 0.02,
-        "Bebidas alcoholicas": 0.00
+        "Bebidas alcoholicas": 0.00,
+        "Material de escritorio": 0.015
     };
     const tasa = descuentosCategoria[categoria];
     return Number((precioNeto * tasa).toFixed(2));
