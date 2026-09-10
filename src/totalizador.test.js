@@ -195,4 +195,9 @@ describe("CalcularDescuentoFijoCliente", () => {
     it("deberia retornar $200 de descuento para cliente Especial en Electronicos con precio neto mayor a $7000", () => {
         expect(calcularDescuentoFijoCliente(8000, "Electronicos", "Especial")).toEqual(200);
     });
+    it("deberia retornar $0 de descuento fijo si no cumple ninguna de las reglas especiales", () => {
+        expect(calcularDescuentoFijoCliente(2000, "Alimentos", "Recurrente")).toEqual(0);
+        expect(calcularDescuentoFijoCliente(8000, "Muebles", "Especial")).toEqual(0);
+        expect(calcularDescuentoFijoCliente(5000, "Electronicos", "Normal")).toEqual(0);
+    });
 });

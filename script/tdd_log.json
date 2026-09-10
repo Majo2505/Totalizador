@@ -1184,9 +1184,31 @@
     "testId": 52
   },
   {
-    "commitId": "HEAD",
+    "commitId": "769cb50c019dd303149384dcbe4399d332122751",
     "commitName": "feat: aplicar descuento fijo de 200 a cliente especial en electronicos mayores a 7000",
     "commitTimestamp": 1789030500365,
     "testId": 52
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 1,
+    "numTotalTests": 51,
+    "timestamp": 1789030566324,
+    "success": false,
+    "testId": 53
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1789030602830,
+    "success": true,
+    "testId": 53
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: verificar que retorne 0 cuando no se cumplen las condiciones de descuento fijo",
+    "commitTimestamp": 1789030614193,
+    "testId": 53
   }
 ]

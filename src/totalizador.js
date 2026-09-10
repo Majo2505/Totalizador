@@ -150,4 +150,5 @@ export function calcularDescuentoFijoCliente(precioNeto, categoria, tipoCliente)
     if (tipoCliente === "Especial" && categoria === "Electronicos" && precioNeto > 7000) {
         return 200;
     }
+    return 0;
 }
