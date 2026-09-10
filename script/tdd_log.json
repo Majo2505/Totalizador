@@ -398,9 +398,31 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e16cb7d80f5e9a62bd7ff0ce44a2328bbcca7a23",
     "commitName": "feat: validar que el precio por item no sea menor a cero",
     "commitTimestamp": 1789023273565,
     "testId": 17
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1789024154521,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1789024273067,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar campo de cantidad vacio",
+    "commitTimestamp": 1789024309161,
+    "testId": 18
   }
 ]

@@ -1,5 +1,9 @@
 export function calcularPrecioNeto(cantidad, precioPorItem) 
 {
+    if (cantidad === "" || cantidad === null || cantidad === undefined) 
+    {
+        return "Ingresar cantidad";
+    }
     if (cantidad <= 0) 
     {
         return "Cantidad invalida";
