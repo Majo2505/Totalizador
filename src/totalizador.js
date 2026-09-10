@@ -69,8 +69,8 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
         "Material de escritorio": 0.00,
         Muebles: 0.03,
         Electronicos: 0.04,
-        Vestimenta: 0.02
-        
+        Vestimenta: 0.02,
+        Varios: 0.00
     };
     const tasa = impuestosCategoria[categoria];
     return Number((precioNeto * tasa).toFixed(2));

@@ -98,6 +98,9 @@ describe("CalcularImpuestoCategoria", () => {
     it("deberia calcular 2% de impuesto adicional para Vestimenta", () => {
         expect(calcularImpuestoCategoria(100, "Vestimenta")).toEqual(2);
     });
+    it("deberia calcular 0% de impuesto adicional para Varios", () => {
+        expect(calcularImpuestoCategoria(100, "Varios")).toEqual(0);
+    });
 });
 
 describe("CalcularDescuentoCategoria", () => {
