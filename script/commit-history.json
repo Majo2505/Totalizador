@@ -931,17 +931,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e6adc857784dcf83aba7ac4519b48052d6e150e7",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:49:47.000Z",
       "message": "feat: calcular 1.5% de descuento en envio para cliente especial",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/e6adc857784dcf83aba7ac4519b48052d6e150e7"
     },
     "stats": {
       "total": 6,
       "additions": 6,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:50:55.000Z",
+      "message": "refactor: simplificar calculo de descuento de envio por cliente usando mapa",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 8,
+      "deletions": 13,
       "date": "2026-09-10"
     },
     "coverage": 100,

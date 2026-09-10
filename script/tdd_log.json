@@ -1126,9 +1126,23 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e6adc857784dcf83aba7ac4519b48052d6e150e7",
     "commitName": "feat: calcular 1.5% de descuento en envio para cliente especial",
     "commitTimestamp": 1789030188700,
     "testId": 49
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1789030240019,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: simplificar calculo de descuento de envio por cliente usando mapa",
+    "commitTimestamp": 1789030256835,
+    "testId": 50
   }
 ]

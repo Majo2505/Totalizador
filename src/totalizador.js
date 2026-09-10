@@ -132,18 +132,13 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
 }
 
 export function calcularDescuentoEnvioCliente(costoEnvio, tipoCliente) {
-    let porcentaje = 0;
-    if (tipoCliente === "Normal") {
-        porcentaje = 0;
-    }
-    else if (tipoCliente === "Recurrente") {
-        porcentaje = 0.005;
-    }
-    else if (tipoCliente === "Antiguo Recurrente") {
-        porcentaje = 0.01;
-    }
-    else if (tipoCliente === "Especial") {
-        porcentaje = 0.015;
-    }
+    const descuentosEnvio = {
+        Normal: 0.00,
+        Recurrente: 0.005,
+        "Antiguo Recurrente": 0.01,
+        Especial: 0.015
+    };
+
+    const porcentaje = descuentosEnvio[tipoCliente] || 0;
     return Number((costoEnvio * porcentaje).toFixed(2));
 }
