@@ -744,9 +744,31 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "90ec78acfac765fb04f87ca5cb187074c6a3ae11",
     "commitName": "feat: calcular impuesto adicional del 2% para vestimenta",
     "commitTimestamp": 1789027406165,
     "testId": 32
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1789027436482,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789027452448,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento adicional del 0% para vestimenta",
+    "commitTimestamp": 1789027465898,
+    "testId": 33
   }
 ]

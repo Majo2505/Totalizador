@@ -116,4 +116,7 @@ describe("CalcularDescuentoCategoria", () => {
     it("deberia calcular 1% de descuento adicional para Electronicos", () => {
         expect(calcularDescuentoCategoria(100, "Electronicos")).toEqual(1);
     });
+    it("deberia calcular 0% de descuento adicional para Vestimenta", () => {
+        expect(calcularDescuentoCategoria(100, "Vestimenta")).toEqual(0);
+    });
 });

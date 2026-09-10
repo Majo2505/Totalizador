@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "90ec78acfac765fb04f87ca5cb187074c6a3ae11",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:03:24.000Z",
       "message": "feat: calcular impuesto adicional del 2% para vestimenta",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/90ec78acfac765fb04f87ca5cb187074c6a3ae11"
     },
     "stats": {
       "total": 6,
@@ -623,6 +623,25 @@
     },
     "coverage": 100,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:04:24.000Z",
+      "message": "feat: calcular descuento adicional del 0% para vestimenta",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }
