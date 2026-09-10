@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2eef0b3632ba39a4762b29722acde8495a2007f3",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:05:38.000Z",
       "message": "feat: calcular impuesto adicional del 0% para categoria varios",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/2eef0b3632ba39a4762b29722acde8495a2007f3"
     },
     "stats": {
       "total": 7,
@@ -661,6 +661,25 @@
     },
     "coverage": 100,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:06:29.000Z",
+      "message": "feat: calcular descuento adicional del 0% para categoria varios",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

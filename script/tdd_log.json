@@ -788,9 +788,31 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2eef0b3632ba39a4762b29722acde8495a2007f3",
     "commitName": "feat: calcular impuesto adicional del 0% para categoria varios",
     "commitTimestamp": 1789027540170,
     "testId": 34
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1789027565822,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1789027578919,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento adicional del 0% para categoria varios",
+    "commitTimestamp": 1789027591280,
+    "testId": 35
   }
 ]

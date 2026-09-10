@@ -83,7 +83,8 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
         "Material de escritorio": 0.015,
         Muebles: 0.00,
         Electronicos: 0.01,
-        Vestimenta: 0.00
+        Vestimenta: 0.00,
+        Varios: 0.00
     };
     const tasa = descuentosCategoria[categoria];
     return Number((precioNeto * tasa).toFixed(2));
