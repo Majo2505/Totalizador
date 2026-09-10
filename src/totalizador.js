@@ -60,3 +60,12 @@ export function calcularDescuento(precioNeto)
     }
     return 0;
 }
+
+export function calcularImpuestoCategoria(precioNeto, categoria) {
+    const impuestosCategoria = 
+    {
+        Alimentos: 0.00
+    };
+    const tasa = impuestosCategoria[categoria] || 0;
+    return Number((precioNeto * tasa).toFixed(2));
+}

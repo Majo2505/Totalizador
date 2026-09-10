@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "56b90485cfedbb2fbc5d782bb473b1d5023a9a80",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T07:18:58.000Z",
       "message": "feat: validar formato no numerico en precio",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/56b90485cfedbb2fbc5d782bb473b1d5023a9a80"
     },
     "stats": {
       "total": 9,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T07:41:55.000Z",
+      "message": "feat: calcular impuesto adicional para la categoria alimentos",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

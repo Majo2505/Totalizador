@@ -486,9 +486,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56b90485cfedbb2fbc5d782bb473b1d5023a9a80",
     "commitName": "feat: validar formato no numerico en precio",
     "commitTimestamp": 1789024740021,
     "testId": 21
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1789025478747,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789025546979,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto adicional para la categoria alimentos",
+    "commitTimestamp": 1789026117630,
+    "testId": 22
   }
 ]

@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, calcularImpuesto, calcularDescuento} from "./totalizador.js";
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularImpuestoCategoria, calcularDescuentoCategoria} from "./totalizador.js";
 
 describe("CalcularPrecioNeto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -44,6 +44,7 @@ describe("CalcularDescuento", () => {
         expect(calcularDescuento(30000)).toEqual(4500);
     });
 });
+
 describe("CalcularPrecioNeto - Validaciones", () => {
     it("deberia retornar 'Cantidad invalida' si la cantidad es igual a cero", () => 
     {
@@ -75,5 +76,11 @@ describe("CalcularPrecioNeto - Validaciones", () => {
     it("deberia retornar 'Formato invalido' si el precio no es un numero", () => {
         expect(calcularPrecioNeto(10, "xyz")).toEqual("Formato invalido");
         expect(calcularPrecioNeto(10, NaN)).toEqual("Formato invalido");
+    });
+});
+
+describe("CalcularImpuestoCategoria", () => {
+    it("deberia calcular 0% de impuesto adicional para la categoria Alimentos", () => {
+        expect(calcularImpuestoCategoria(100, "Alimentos")).toEqual(0);
     });
 });
