@@ -194,3 +194,17 @@ export function obtenerDesglose({
         costoEnvioFinal
     };
 }
+
+export function calcularTotalizador(datosInput) {
+    const desglose = obtenerDesglose(datosInput);
+
+    const totalDescuentos = desglose.descuentoMonto + desglose.descuentoCategoria + desglose.descuentoFijoCliente;
+    const totalImpuestos = desglose.impuestoEstado + desglose.impuestoCategoria;
+
+    const precioTotal = Number((desglose.precioNeto - totalDescuentos + totalImpuestos + desglose.costoEnvioFinal).toFixed(2));
+
+    return {
+        ...desglose,
+        precioTotal
+    };
+}

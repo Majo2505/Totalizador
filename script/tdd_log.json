@@ -1250,9 +1250,31 @@
     "testId": 55
   },
   {
-    "commitId": "HEAD",
+    "commitId": "578af139bb186cd96e8ef9f284d4515f64d0f43b",
     "commitName": "feat: implementar obtencion de componentes individuales del desglose de compra",
     "commitTimestamp": 1789031893726,
     "testId": 55
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1789031997667,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1789032013462,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar consolidacion de totalizador sumando impuestos, descuentos y precio total final",
+    "commitTimestamp": 1789032026685,
+    "testId": 56
   }
 ]

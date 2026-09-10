@@ -1045,12 +1045,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "578af139bb186cd96e8ef9f284d4515f64d0f43b",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T09:18:12.000Z",
       "message": "feat: implementar obtencion de componentes individuales del desglose de compra",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/578af139bb186cd96e8ef9f284d4515f64d0f43b"
     },
     "stats": {
       "total": 64,
@@ -1060,6 +1060,25 @@
     },
     "coverage": 100,
     "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T09:20:25.000Z",
+      "message": "feat: implementar consolidacion de totalizador sumando impuestos, descuentos y precio total final",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 32,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }

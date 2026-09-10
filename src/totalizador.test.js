@@ -1,7 +1,7 @@
 import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, 
     calcularImpuestoCategoria, calcularDescuentoCategoria,
     calcularCostoEnvio, calcularDescuentoEnvioCliente, 
-    calcularDescuentoFijoCliente, obtenerDesglose } from "./totalizador.js";
+    calcularDescuentoFijoCliente, obtenerDesglose, calcularTotalizador } from "./totalizador.js";
 
 describe("CalcularPrecioNeto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -225,5 +225,22 @@ describe("ObtenerDesglose - Componentes Individuales", () => {
             descuentoFijoCliente: 100,
             costoEnvioFinal: 34.82
         });
+    });
+});
+
+describe("CalcularTotalizador - Consolidador Final", () => {
+    it("deberia reutilizar el desglose para consolidar y calcular el precio total final", () => {
+        const resultado = calcularTotalizador({
+            cantidad: 10,
+            precio: 400,
+            estado: "CA",
+            categoria: "Alimentos",
+            pesoVolumetrico: 15,
+            tipoCliente: "Recurrente"
+        });
+
+        expect(resultado.precioTotal).toEqual(3984.82);
+        expect(resultado.precioNeto).toEqual(4000);
+        expect(resultado.costoEnvioFinal).toEqual(34.82);
     });
 });
