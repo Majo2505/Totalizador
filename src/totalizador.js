@@ -142,3 +142,10 @@ export function calcularDescuentoEnvioCliente(costoEnvio, tipoCliente) {
     const porcentaje = descuentosEnvio[tipoCliente] || 0;
     return Number((costoEnvio * porcentaje).toFixed(2));
 }
+
+export function calcularDescuentoFijoCliente(precioNeto, categoria, tipoCliente) {
+    if (tipoCliente === "Recurrente" && categoria === "Alimentos" && precioNeto > 3000) {
+        return 100;
+    }
+    return 0;
+}

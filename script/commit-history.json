@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3c1d99ce197e97dfd0b855ef4a1b55ea04dcfa0f",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:50:55.000Z",
       "message": "refactor: simplificar calculo de descuento de envio por cliente usando mapa",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/3c1d99ce197e97dfd0b855ef4a1b55ea04dcfa0f"
     },
     "stats": {
       "total": 21,
@@ -965,6 +965,25 @@
     },
     "coverage": 100,
     "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:54:06.000Z",
+      "message": "feat: aplicar descuento fijo de 100 $ a cliente recurrente en alimentos mayores a 3000",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.21,
+    "test_count": 49,
     "failed_tests": 0,
     "conclusion": "success"
   }

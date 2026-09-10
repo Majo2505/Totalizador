@@ -1140,9 +1140,31 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3c1d99ce197e97dfd0b855ef4a1b55ea04dcfa0f",
     "commitName": "refactor: simplificar calculo de descuento de envio por cliente usando mapa",
     "commitTimestamp": 1789030256835,
     "testId": 50
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1789030407548,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1789030426592,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento fijo de 100 $ a cliente recurrente en alimentos mayores a 3000",
+    "commitTimestamp": 1789030448358,
+    "testId": 51
   }
 ]

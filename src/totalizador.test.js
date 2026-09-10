@@ -1,6 +1,6 @@
 import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, 
     calcularImpuestoCategoria, calcularDescuentoCategoria,
-    calcularCostoEnvio, calcularDescuentoEnvioCliente } from "./totalizador.js";
+    calcularCostoEnvio, calcularDescuentoEnvioCliente, calcularDescuentoFijoCliente } from "./totalizador.js";
 
 describe("CalcularPrecioNeto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -187,3 +187,9 @@ describe("CalcularDescuentoEnvioCliente", () => {
         expect(calcularDescuentoEnvioCliente(100, "Especial")).toEqual(1.5);
     });
 }); 
+
+describe("CalcularDescuentoFijoCliente", () => {
+    it("deberia retornar $100 de descuento para cliente Recurrente en Alimentos con precio neto mayor a $3000", () => {
+        expect(calcularDescuentoFijoCliente(3500, "Alimentos", "Recurrente")).toEqual(100);
+    });
+});
