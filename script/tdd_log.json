@@ -906,9 +906,31 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3490a36cbc03d695d599d58ed1020887dee7db05",
     "commitName": "feat: calcular costo de envio para peso volumetrico de 0 a 10",
     "commitTimestamp": 1789028622049,
     "testId": 39
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1789028731922,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1789028777592,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular costo de envio para peso volumetrico de 11 a 20",
+    "commitTimestamp": 1789028788645,
+    "testId": 40
   }
 ]
