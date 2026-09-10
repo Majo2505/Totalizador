@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "644de536a525045a91efc0e5c94b2409466c907e",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T07:50:04.000Z",
       "message": "feat: calcular descuento adicional del 0% para bebidas alcoholicas",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/644de536a525045a91efc0e5c94b2409466c907e"
     },
     "stats": {
       "total": 10,
@@ -490,6 +490,25 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T07:53:35.000Z",
+      "message": "feat: calcular impuesto adicional del 0% para material de escritorio",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }

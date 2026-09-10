@@ -590,9 +590,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "644de536a525045a91efc0e5c94b2409466c907e",
     "commitName": "feat: calcular descuento adicional del 0% para bebidas alcoholicas",
     "commitTimestamp": 1789026606124,
     "testId": 25
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1789026777474,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789026794141,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto adicional del 0% para material de escritorio",
+    "commitTimestamp": 1789026816714,
+    "testId": 26
   }
 ]

@@ -86,6 +86,9 @@ describe("CalcularImpuestoCategoria", () => {
     it("deberia calcular 7% de impuesto adicional para Bebidas alcoholicas", () => {
         expect(calcularImpuestoCategoria(100, "Bebidas alcoholicas")).toEqual(7);
     });
+    it("deberia calcular 0% de impuesto adicional para Material de escritorio", () => {
+        expect(calcularImpuestoCategoria(100, "Material de escritorio")).toEqual(0);
+    });
 });
 
 describe("CalcularDescuentoCategoria", () => {
