@@ -228,17 +228,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "21a268b6a665cf84a5be64eccb28b283f0584c40",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T06:22:54.000Z",
       "message": "feat: calcular 15% de descuento para compras mayores a 30000",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/21a268b6a665cf84a5be64eccb28b283f0584c40"
     },
     "stats": {
       "total": 7,
       "additions": 7,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T06:27:20.000Z",
+      "message": "refactor: optimizar logica de descuentos usando estructura iterativa de tramos",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 14,
+      "deletions": 18,
       "date": "2026-09-10"
     },
     "coverage": 100,

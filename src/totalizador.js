@@ -18,25 +18,21 @@ export function calcularImpuesto(precioNeto, estado)
 
 export function calcularDescuento(precioNeto) 
 {
-    if (precioNeto >= 30000) 
+    const tramos = 
+    [
+        { limite: 30000, tasa: 0.15 },
+        { limite: 10000, tasa: 0.10 },
+        { limite: 7000, tasa: 0.07 },
+        { limite: 3000, tasa: 0.05 },
+        { limite: 1000, tasa: 0.03 }
+    ];
+
+    for (const tramo of tramos) 
     {
-        return precioNeto * 0.15;
-    }
-    if (precioNeto >= 10000) 
-    {
-        return precioNeto * 0.1;
-    }
-    if (precioNeto >= 7000) 
-    {
-        return Number((precioNeto * 0.07).toFixed(2));
-    }
-    if (precioNeto >= 3000) 
-    {
-        return precioNeto * 0.05;
-    }
-    if (precioNeto >= 1000) 
-    {
-        return precioNeto * 0.03;
+        if (precioNeto >= tramo.limite) 
+        {
+            return Number((precioNeto * tramo.tasa).toFixed(2));
+        }
     }
     return 0;
 }

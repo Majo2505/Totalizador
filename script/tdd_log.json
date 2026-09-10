@@ -288,9 +288,23 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "21a268b6a665cf84a5be64eccb28b283f0584c40",
     "commitName": "feat: calcular 15% de descuento para compras mayores a 30000",
     "commitTimestamp": 1789021376536,
     "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789021620774,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: optimizar logica de descuentos usando estructura iterativa de tramos",
+    "commitTimestamp": 1789021642344,
+    "testId": 13
   }
 ]
