@@ -354,9 +354,31 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ddbef54385d08dd7834d9f1c909cd26ef1a1eb4b",
     "commitName": "feat: validar que la cantidad no sea un numero negativo",
     "commitTimestamp": 1789022881289,
     "testId": 15
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1789023067300,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789023109737,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que el precio por item no sea cero",
+    "commitTimestamp": 1789023148054,
+    "testId": 16
   }
 ]

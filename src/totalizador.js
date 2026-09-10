@@ -4,6 +4,10 @@ export function calcularPrecioNeto(cantidad, precioPorItem)
     {
         return "Cantidad invalida";
     }
+    if (precioPorItem === 0) 
+    {
+        return "Precio invalido";
+    }
     return cantidad * precioPorItem;
 }
 
