@@ -684,12 +684,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3b53e4592ab81263aebd00214740fd16fb9ea609",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T08:15:15.000Z",
       "message": "feat: validar campo de peso volumetrico vacio",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/3b53e4592ab81263aebd00214740fd16fb9ea609"
     },
     "stats": {
       "total": 17,
@@ -699,6 +699,25 @@
     },
     "coverage": 96.67,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:17:10.000Z",
+      "message": "feat: validar formato no numerico en peso volumetrico",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.97,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }

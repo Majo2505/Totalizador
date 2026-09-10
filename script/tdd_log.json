@@ -832,9 +832,31 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3b53e4592ab81263aebd00214740fd16fb9ea609",
     "commitName": "feat: validar campo de peso volumetrico vacio",
     "commitTimestamp": 1789028117333,
     "testId": 36
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1789028178475,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1789028219839,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar formato no numerico en peso volumetrico",
+    "commitTimestamp": 1789028232272,
+    "testId": 37
   }
 ]

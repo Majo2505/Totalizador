@@ -94,5 +94,10 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
     if (pesoVolumetrico === "" || pesoVolumetrico === null || pesoVolumetrico === undefined) {
         return "Ingresar peso";
     }
+
+    const peso = Number(pesoVolumetrico);
+    if (Number.isNaN(peso)) {
+        return "Formato invalido";
+    }
     return 0;
 }
