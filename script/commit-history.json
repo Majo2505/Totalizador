@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd11b9d48eb6e1a82c7e7d4cc89ffff93ae95c38",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T07:58:35.000Z",
       "message": "feat: calcular impuesto adicional del 3% para muebles",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/bd11b9d48eb6e1a82c7e7d4cc89ffff93ae95c38"
     },
     "stats": {
       "total": 7,
@@ -547,6 +547,25 @@
     },
     "coverage": 100,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T08:00:05.000Z",
+      "message": "feat: calcular descuento adicional del 0% para muebles",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

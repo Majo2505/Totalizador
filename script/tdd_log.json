@@ -656,9 +656,31 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd11b9d48eb6e1a82c7e7d4cc89ffff93ae95c38",
     "commitName": "feat: calcular impuesto adicional del 3% para muebles",
     "commitTimestamp": 1789027117338,
     "testId": 28
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789027181233,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789027197381,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento adicional del 0% para muebles",
+    "commitTimestamp": 1789027207023,
+    "testId": 29
   }
 ]
