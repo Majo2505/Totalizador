@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3881d34125fff24f25f53d644d143a9e24ab8be3",
     "author": "Your Name",
     "commit": {
       "date": "2026-09-10T06:52:26.000Z",
       "message": "feat: validar que el precio por item no sea cero",
-      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Totalizador/commit/3881d34125fff24f25f53d644d143a9e24ab8be3"
     },
     "stats": {
       "total": 7,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-09-10T06:54:31.000Z",
+      "message": "feat: validar que el precio por item no sea menor a cero",
+      "url": "https://github.com/Majo2505/Totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

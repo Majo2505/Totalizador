@@ -376,9 +376,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3881d34125fff24f25f53d644d143a9e24ab8be3",
     "commitName": "feat: validar que el precio por item no sea cero",
     "commitTimestamp": 1789023148054,
     "testId": 16
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1789023219645,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789023241865,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que el precio por item no sea menor a cero",
+    "commitTimestamp": 1789023273565,
+    "testId": 17
   }
 ]

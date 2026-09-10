@@ -55,4 +55,7 @@ describe("CalcularPrecioNeto - Validaciones", () => {
     it("deberia retornar 'Precio invalido' si el precio es igual a cero", () => {
         expect(calcularPrecioNeto(10, 0)).toEqual("Precio invalido");
     });
+    it("deberia retornar 'Precio invalido' si el precio es menor a cero", () => {
+        expect(calcularPrecioNeto(10, -5)).toEqual("Precio invalido");
+    });
 });
